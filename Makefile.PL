@@ -17,12 +17,6 @@ WriteMakefile(
     BUILD_REQUIRES => {
         'Test::More' => 0,
     },
-    PREREQ_PM => {
-        'LWP::UserAgent' => 6.04,
-	'HTTP::Request::Common' => 6.06,
-	'Crypt::SSLeay' => 0.64,
-	'IO::Socket::SSL' => 1.77
-    },
     MAN1PODS => {
 	'bin/sms' => '\$(INST_MAN1DIR)/sms.1',
     },
